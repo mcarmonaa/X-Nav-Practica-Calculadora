@@ -28,7 +28,7 @@ $(document).ready(function() {
   });
 
   $(document).keypress(function(event) {
-    console.log(event.which + '   ' + String.fromCharCode(event.which));
+    // console.log(event.which + '   ' + String.fromCharCode(event.which));
     if (String.fromCharCode(event.which) === $('#eval').text() || event.which === 13) {
       $('#eval').click();
       return;
